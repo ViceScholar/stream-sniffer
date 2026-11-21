@@ -8,6 +8,10 @@
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero-43A047)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
+<p align="center">
+  <img src="assets/demo.png" alt="StreamSniffer Downloading MP4 Demo" width="600" />
+</p>
+
 ---
 
 ## 📖 Overview
