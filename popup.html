@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamSniffer</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <!-- ── Header ──────────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-left">
+      <span class="logo">📡</span>
+      <span class="title">StreamSniffer</span>
+    </div>
+    <button id="btn-clear" class="btn-ghost" title="Clear detected streams">
+      🗑 Clear
+    </button>
+  </header>
+
+  <!-- ── Stream list ──────────────────────────────────────────────── -->
+  <main id="main">
+    <!-- Populated by popup.js -->
+  </main>
+
+  <!-- ── Progress overlay (HLS download) ─────────────────────────── -->
+  <div id="progress-overlay" class="hidden">
+    <div class="progress-card">
+      <p id="progress-label" class="progress-label">Preparing…</p>
+      <div class="progress-track">
+        <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+      </div>
+      <p id="progress-sub" class="progress-sub"></p>
+      <button id="btn-cancel" class="btn-cancel">Cancel</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

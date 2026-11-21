@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / Archives / Logs
+dist/
+build/
+*.zip
+*.crx
+*.log
+
+# Local Test Media & Study Notes (exclude large downloaded videos from Git)
+*.mp4
+*.ts
+*.webm
+*.mkv
+*.m3u8
+LEARNING_GUIDE.md
