@@ -97,7 +97,7 @@ You can load **StreamSniffer** unpacked in Google Chrome, Microsoft Edge, Brave,
 
 1. **Clone or download this repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/streamsniffer.git
+   git clone https://github.com/ViceScholar/stream-sniffer.git
    ```
 2. **Open the Extensions Management page:**
    - Navigate to `chrome://extensions` (or `edge://extensions` / `brave://extensions`).
